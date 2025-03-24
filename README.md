@@ -6,10 +6,12 @@ This is `README.md` version for Documentation branch in github.
 Bikeshare US Data
 
 ### Description
-Project for "Introduction to Python course" a part of "Programming in Data Science with Python Nanodegree", Main Project is python program `bikeshare_2.py` used to analyze and explore data related with bikes in 3 major cities in USA (Chicago - NYC - Washington) . The code allows to show statistics and advanced data with datasets.
+This project is for "Introduction to Python course" a part of "Programming in Data Science with Python Nanodegree", Main Project is datasets and python program `bikeshare_2.py` used to analyze and explore data related with bikes in 3 major cities in USA (Chicago - NYC - Washington) . The code allows to show statistics and advanced data with datasets in CSVs files .
 
 ### Files used in project
+#### Code :
 - `bikeshare_2.py` : The main script of program by python language
+#### Datasets :
 - `chicago.csv` : Dataset for chicago city , used in code
 - `new_york_city.csv` : Dataset for new york city , used in code
 - `washington.csv` : Dataset for washington d.c , used in code
