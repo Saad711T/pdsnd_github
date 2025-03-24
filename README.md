@@ -1,17 +1,34 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
-
+24 Mar 2025
 ### Project Title
-Replace the Project Title
+Bikeshare US Data
 
 ### Description
-Describe what your project is about and what it does
+Project for "Introduction to Python course" a part of "Programming in Data Science with Python Nanodegree", Main Project is python program `bikeshare_2.py` used to analyze and explore data related with bikes in 3 major cities in USA (Chicago - NYC - Washington) . The code allows to show statistics and advanced data with datasets.
 
 ### Files used
-Include the files used
+- `bikeshare_2.py` : The main script of program by python language
+- `chicago.csv` : Dataset for chicago city , used in code
+- `new_york_city.csv` : Dataset for new york city , used in code
+- `washington.csv` : Dataset for washington d.c , used in code
+
+### Installation
+Instructions for how to get a copy of the project running on your local machine , Run this command in your terminal :
+`git clone https://github.com/Saad711T/pdsnd_github`
+
+## Built With
+
+* [Python](https://www.python.org) - Python is High-level language used mainly in machine learning ,data science ,video games ,and back-end web development.
+* [Pandas](https://pandas.pydata.org) - Pandas is python library using for Data manipulation.
+* [Numpy](https://numpy.org) - Numpy is python library using for numerical things , and Numpy meaning is "Numerical Python".
+
+Include all items used to build project.
+
+## License
+
+[License](LICENSE)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- [Main repo for US Bikeshare Data](https://github.com/Saad711T/Udacity-Bikeshare-US-Data)
+- [Nanodegree Link](https://www.udacity.com/enrollment/nd104).
 
