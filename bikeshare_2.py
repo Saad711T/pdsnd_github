@@ -6,6 +6,7 @@ import numpy as np
 import time
 """Libraries Using : Numpy , Pandas for Data Manipulation and Time library.
  Project target :  explore data for bikeshare in Three cities in US (Chicago, Washington, and NYC).
+ Date : 24 Mar 2025 - Monday
 """
 #Loading data from datasets 'CSVs'
 CITY_DATA = {
@@ -124,7 +125,7 @@ def time_stats(df):
 
 def station_stats(df):
     """
-    Display statistics on the most popular stations and trips.
+    Display statistics of data on the most popular stations and trips.
     """
     print("\nCalculating Most Popular Stations and Trips...\n")
     start = time.time()
@@ -146,7 +147,7 @@ def station_stats(df):
 #Function to trip duration statisitics
 def trip_duration_stats(df):
     """
-    Display total and average trip durations.
+    Display The total and average of trip durations.
     """
     print("\nCalculating Trip Durations...\n")
     start = time.time()
