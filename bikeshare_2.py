@@ -2,7 +2,9 @@
 
 #Using pandas for Data manipulation
 import pandas as pd
+#Using numpy for numerical calculations
 import numpy as np
+#Using time library
 import time
 """Libraries Using : Numpy , Pandas for Data Manipulation and Time library.
  Project target :  explore data for bikeshare in Three cities in US (Chicago, Washington, and NYC).
