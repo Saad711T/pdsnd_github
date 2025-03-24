@@ -1,4 +1,6 @@
 #Import libraries :
+
+#Using pandas for Data manipulation
 import pandas as pd
 import numpy as np
 import time
@@ -18,6 +20,7 @@ valid_cities = ['chicago', 'new york', 'washington']
 valid_months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 valid_days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
 
+#Function to get filters in code
 def get_filters():
     """
     Ask user to select filters for city, month, and day.
@@ -65,6 +68,7 @@ def get_filters():
     return city, month, day
 
 
+#Function to load data
 def load_data(city, month, day):
     """
     Load data for the specified city and apply filters.
@@ -139,7 +143,7 @@ def station_stats(df):
     print('-' * 40)
 
 
-
+#Function to trip duration statisitics
 def trip_duration_stats(df):
     """
     Display total and average trip durations.
@@ -165,7 +169,7 @@ def trip_duration_stats(df):
     print('-' * 40)
 
 
-
+#Function for stats of user.
 def stats_user(df, city):
     """
     Display statistics on bikeshare users.
@@ -208,12 +212,13 @@ def individual_data(df):
     total_rows = len(df)
 
     while index < total_rows:
-        show_data = input("Would you like to see individual trip data? yes or no : ").strip().lower()
+        show_data = input("Would you like to see individual trip data? yes or no : ").strip().lower() #If user write : no , program stopped
         if show_data == 'yes':
             print(df.iloc[index:index+chunk_size])
             index += chunk_size
         else:
             break
+#Main Function :
 def main():
     """
     Main function to run the program .
@@ -234,11 +239,11 @@ def main():
         individual_data(df)
 
         # Ask if user wants to restart
-        restart = input("\nWould you like to restart the program? yes or no : ").strip().lower()
+        restart = input("\nWould you like to restart the program? yes or no : ").strip().lower() #If user write : no , program stopped
         if restart != 'yes':
             print("Goodbye!")
             break
 
-
+#Run a program
 if __name__ == "__main__":
     main()
